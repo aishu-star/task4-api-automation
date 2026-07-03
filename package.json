@@ -1,0 +1,15 @@
+{
+  "name": "api-test-automation",
+  "version": "1.0.0",
+  "description": "Playwright-based API test suite demonstrating the testing approach from Task 4 (smoke, functional, negative, and boundary tests).",
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
+  "keywords": ["api-testing", "playwright", "qa"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1"
+  }
+}
